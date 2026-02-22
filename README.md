@@ -23,11 +23,11 @@ Este projeto é a API da Digital Store, desenvolvida como projetodo módulo de B
 
 Utilize os campos do arquivo .env.example como guia para preencher suas credenciais do banco de dados e chave secreta.
 
-4. **Banco de Dados**:
+4. **Banco de Dados**: 
+ Certifique-se de que o MySQL está em execução.
 
-Certifique-se de que o MySQL está em execução.
-
-5. **Crie um schema chamado**: digital_store_db.
+5. **Crie um schema chamado**:
+  digital_store_db.
 
 6. **Inicie o servidor**:
 
@@ -40,21 +40,21 @@ Autenticação:
 
 POST /v1/user/token: Gera o token JWT após validação de e-mail e senha.
 
-Produtos:
+**Produtos**:
 
 GET /v1/product/search: Lista produtos com suporte a filtros de nome, intervalo de preços e paginação automática (padrão 12 itens).
 
 GET /v1/product/:id: Retorna os detalhes de um produto específico, incluindo suas imagens vinculadas e opções.
 
-Categorias:
+**Categorias**:
 
 GET /v1/category/search: Lista categorias com filtros para exibição em menu e paginação customizável.
 
-📂 Estrutura de Pastas
-src/controllers: Lógica de negócio da aplicação.
+##📂 Estrutura de Pastas
+**src/controllers**: Lógica de negócio da aplicação.
 
-src/models: Definição das tabelas e associações do banco de dados.
+**src/models**: Definição das tabelas e associações do banco de dados.
 
-src/routes: Definição das rotas da API.
+**src/routes**: Definição das rotas da API.
 
-src/config: Configuração da conexão com o banco de dados.
+**src/config**: Configuração da conexão com o banco de dados.
