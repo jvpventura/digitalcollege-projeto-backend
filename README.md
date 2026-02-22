@@ -34,7 +34,7 @@ Inicie o servidor:
 Bash
 npm run dev
 
-📑 Principais Funcionalidades e Endpoints
+## 📑 Principais Funcionalidades e Endpoints
 Autenticação:
 
 POST /v1/user/token: Gera o token JWT após validação de e-mail e senha.
