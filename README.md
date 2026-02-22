@@ -12,8 +12,8 @@ Este projeto é a API da Digital Store, desenvolvida como projetodo módulo de B
 
 ## 🚀 Instalação e Execução
 
-1. **Clone o repositório** para sua máquina local.
-2. **Instale as dependências**:
+ **Clone o repositório** para sua máquina local.
+ **Instale as dependências**:
    ```bash
    npm install
    Configure as Variáveis de Ambiente:
