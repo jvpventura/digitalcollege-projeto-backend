@@ -27,12 +27,13 @@ Utilize os campos do arquivo .env.example como guia para preencher suas credenci
 
 Certifique-se de que o MySQL está em execução.
 
-5. **Crie um schema chamado digital_store_db**.
+5. **Crie um schema chamado**: digital_store_db.
 
 6. **Inicie o servidor**:
 
-Bash
-npm run dev
+```Bash
+npm run dev;
+```
 
 ## 📑 Principais Funcionalidades e Endpoints
 Autenticação:
