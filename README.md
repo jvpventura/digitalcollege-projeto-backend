@@ -12,24 +12,24 @@ Este projeto é a API da Digital Store, desenvolvida como projetodo módulo de B
 
 ## 🚀 Instalação e Execução
 
- **Clone o repositório** para sua máquina local.
- **Instale as dependências**:
+ 1. **Clone o repositório** para sua máquina local.
+ 2. **Instale as dependências**:
    ```bash
    npm install
    Configure as Variáveis de Ambiente:
    ```
 
-Crie um arquivo .env na raiz do projeto.
+3. **Crie um arquivo .env na raiz do projeto.
 
 Utilize os campos do arquivo .env.example como guia para preencher suas credenciais do banco de dados e chave secreta.
 
-Banco de Dados:
+4. **Banco de Dados:
 
 Certifique-se de que o MySQL está em execução.
 
-Crie um schema chamado digital_store_db.
+5. **Crie um schema chamado digital_store_db.
 
-Inicie o servidor:
+6. **Inicie o servidor:
 
 Bash
 npm run dev
